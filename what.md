@@ -1,2 +1,3 @@
-# do you work
-yawcty.github.io
+permalink: yawcty.github.io
+title: My little projects
+description: gah
