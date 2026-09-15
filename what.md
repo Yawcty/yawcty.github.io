@@ -1,3 +1,2 @@
-permalink: yawcty.github.io
-title: My little projects
-description: gah
+# you be normal
+not you tho
