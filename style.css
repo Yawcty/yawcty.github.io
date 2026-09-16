@@ -17,7 +17,10 @@ header a:hover {
   text-decoration: none;
 }
 a {
-  transition: color .2s, background-color .2s;
+  transition: color .2s, background-color .2s, transform: .2s;
+}
+a img:hover {
+  transform: scale(1.1);
 }
 .row {
   display: flex;
