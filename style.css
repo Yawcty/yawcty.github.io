@@ -18,6 +18,9 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
+a:not(:focus-visible), button:not(:focus-visible), input[type=submit]:not(:focus-visible), .ui-slider-handle:not(:focus-visible) {
+    outline: none;
+}
 .row {
   display: flex;
   width: 900px;
