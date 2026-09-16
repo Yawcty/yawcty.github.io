@@ -3,18 +3,17 @@ body {
   color: black;
   font-family: Arial;
   margin: 0px;
-  transition-property: color, background-color;
-  transition-duration: .2s;
+  transition: color .2s, background-color .2s;
 }
 header {
   position: fixed;
   z-index: 100;
-  width: 100%
+  width: 100%;
 }
 header a:hover {
   color: #d4d4d4;
 }
-.top header a: {
+header a: {
   color: white;
   text-decoration: none;
 }
