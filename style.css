@@ -3,7 +3,6 @@ body {
   color: black;
   font-family: Arial;
   margin: 0px;
-  transition: color .2s, background-color .2s;
 }
 header {
   position: fixed;
@@ -16,6 +15,9 @@ header a:hover {
 .top header a {
   color: white;
   text-decoration: none;
+}
+a {
+  transition: color .2s, background-color .2s;
 }
 .row {
   display: flex;
