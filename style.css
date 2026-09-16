@@ -20,9 +20,14 @@ header a:hover {
 }
 .row {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 .centered {
   text-align: -webkit-center;
+}
+.centered .row{
+  justify-content: center;
 }
 .w300 {
   width: 300px;
