@@ -6,6 +6,9 @@ body {
 header {
   background: gray;
   color: white;
+  text-align: left;
+  z-index: 99;
+  width: 100%
 }
 a {
   text-decoration: none;
