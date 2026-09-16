@@ -16,13 +16,14 @@ header a: {
   color: white;
   text-decoration: none;
 }
-.row-center {
+.row {
   display: flex;
-  text-align: -webkit-center;;
 }
-.col-300 {
+.centered {
+  text-align: -webkit-center;
+}
+.w300 {
   width: 300px;
-  text-align: -webkit-center;;
 }
 .banner {
   padding: 2px 20px 12px 20px;
