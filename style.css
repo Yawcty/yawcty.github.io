@@ -23,6 +23,9 @@ header .top a {
 a {
   transition: color 0.2s, background-color 0.2s, transform 0.2s;
 }
+a img {
+  transition: transform 0.2s;
+}
 a .folder:hover {
   transform: scale(1.1);
 }
