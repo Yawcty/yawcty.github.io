@@ -7,6 +7,14 @@ header {
   background: gray;
   color: white;
 }
+a {
+  text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
 .row {
   display: flex;
   width: 900px;
