@@ -17,8 +17,7 @@ header {
 a {
   text-decoration: none;
 }
-a:not(:focus-visible), button:not(:focus-visible), input[type=submit]:not(:focus-visible), .ui-slider-handle:not(:focus-visible) {
-  outline: none;
+a:not(:hover) {
   text-decoration: none;
 }
 .row {
