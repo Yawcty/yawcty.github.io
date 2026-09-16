@@ -34,9 +34,6 @@ a img:hover {
 .centered .row{
   justify-content: center;
 }
-.w300 {
-  width: 300px;
-}
 .title {
   padding: 2px 20px 12px 20px;
   background: #d4d4d4;
