@@ -12,6 +12,7 @@ header {
   width: 100%
   position: fixed;
   top: 0;
+  padding: 12px 20px 12px 20px;
 }
 a {
   text-decoration: none;
