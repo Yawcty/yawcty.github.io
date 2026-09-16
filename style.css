@@ -22,6 +22,7 @@ header a: {
 }
 .col-300 {
   width: 300px;
+  text-align: center;
 }
 .banner {
   padding: 2px 20px 12px 20px;
