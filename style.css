@@ -17,13 +17,9 @@ header {
 a {
   text-decoration: none;
 }
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
 a:not(:focus-visible), button:not(:focus-visible), input[type=submit]:not(:focus-visible), .ui-slider-handle:not(:focus-visible) {
-    outline: none;
+  outline: none;
+  text-decoration: none;
 }
 .row {
   display: flex;
