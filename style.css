@@ -32,7 +32,7 @@ a .folder:hover {
 .folder {
   width: 250px;
   height: 250px;
-  padding: 35px 35px 35px 35px;
+  padding: 15px 15px 15px 15px;
 }
 .row {
   display: flex;
