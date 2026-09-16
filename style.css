@@ -19,8 +19,12 @@ header .top a {
 a {
   transition: color 0.2s, background-color 0.2s, transform 0.2s;
 }
-a img .folder:hover {
+a .folder:hover {
   transform: scale(1.1);
+}
+.folder {
+  width: 250px;
+  height: 250px;
 }
 .row {
   display: flex;
