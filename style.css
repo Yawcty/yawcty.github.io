@@ -9,6 +9,8 @@ header {
   text-align: left;
   z-index: 99;
   width: 100%
+  position: fixed;
+  top: 0;
 }
 a {
   text-decoration: none;
