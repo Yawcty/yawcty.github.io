@@ -12,7 +12,7 @@ header {
 header a:hover {
   color: #d4d4d4;
 }
-.top header a {
+header .top a {
   color: white;
   text-decoration: none;
 }
