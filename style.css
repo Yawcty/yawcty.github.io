@@ -18,11 +18,11 @@ header a: {
 }
 .row-center {
   display: flex;
-  text-align: center;
+  text-align: -webkit-center;;
 }
 .col-300 {
   width: 300px;
-  text-align: center;
+  text-align: -webkit-center;;
 }
 .banner {
   padding: 2px 20px 12px 20px;
