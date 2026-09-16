@@ -9,7 +9,7 @@ header {
   z-index: 100;
   width: 100%;
 }
-header a:hover {
+header .top a:hover {
   color: #d4d4d4;
 }
 header .top a {
