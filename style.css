@@ -17,7 +17,7 @@ header .top a {
   text-decoration: none;
 }
 a {
-  transition: color 0.2s, background-color 0.2s, transform: 0.2s;
+  transition: color 0.2s, background-color 0.2s, transform 0.2s;
 }
 a img .folder:hover {
   transform: scale(1.1);
