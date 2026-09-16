@@ -5,15 +5,9 @@ body {
   margin: 0px;
 }
 header {
-  background: gray;
-  color: white;
-  text-align: left;
   z-index: 100;
   width: 100%
   position: fixed;
-  top: 0;
-  padding: 12px 20px 12px 20px;
-  text-decoration: none;
 }
 header a:hover {
   color: #d4d4d4;
@@ -30,7 +24,14 @@ header a: {
   width: 300px;
 }
 .banner {
+  padding: 2px 20px 12px 20px;
   background: #d4d4d4;
   color: black;
+  text-align: left;
+}
+.top {
+  padding: 12px 20px 2px 20px;
+  background: gray;
+  color: white;
   text-align: left;
 }
