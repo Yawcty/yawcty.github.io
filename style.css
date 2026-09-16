@@ -34,6 +34,18 @@ a img .folder:hover {
 .centered .row{
   justify-content: center;
 }
+.lefted {
+  text-align: -webkit-left;
+}
+.lefted .row{
+  justify-content: left;
+}
+.righted {
+  text-align: -webkit-right;
+}
+.righted .row{
+  justify-content: right;
+}
 .title {
   padding: 2px 20px 12px 20px;
   background: #d4d4d4;
