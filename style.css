@@ -18,7 +18,10 @@ header {
 header a:hover {
   color: #d4d4d4;
 }
-h
+header a: {
+  color: white;
+  text-decoration: none;
+}
 .row {
   display: flex;
   width: 900px;
