@@ -1,5 +1,5 @@
 body {
-  background-color: #e6e6e6;
+  background-color: white;
   color: black;
   font-family: Arial;
   margin: 0px;
@@ -13,7 +13,7 @@ header .top a:hover {
   color: #d4d4d4;
 }
 header .top a {
-  color: white;
+  color: #e6e6e6;
   text-decoration: none;
 }
 a {
