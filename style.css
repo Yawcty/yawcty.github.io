@@ -8,7 +8,7 @@ header {
   background: gray;
   color: white;
   text-align: left;
-  z-index: 99;
+  z-index: 100;
   width: 100%
   position: fixed;
   top: 0;
@@ -25,4 +25,9 @@ h
 }
 .col {
   width: 300px;
+}
+.banner {
+  background: #d4d4d4;
+  color: black;
+  text-align: left;
 }
