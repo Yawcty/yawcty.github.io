@@ -43,7 +43,7 @@ a .folder:hover {
 .centered {
   text-align: -webkit-center;
 }
-.centered .row{
+.row .centered{
   justify-content: center;
 }
 .lefted {
