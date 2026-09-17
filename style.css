@@ -20,6 +20,9 @@ header .top a {
   color: white;
   text-decoration: none;
 }
+footer {
+  background-color: #110030;
+}
 a {
   transition: color 0.2s, background-color 0.2s, transform 0.2s;
 }
