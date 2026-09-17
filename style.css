@@ -75,6 +75,9 @@ div .line {
   background: #001840;
   text-align: left;
 }
+.title::before {
+  content: " ▶ ";
+}
 .top {
   padding: 12px 20px 12px 20px;
   background: #010024;
