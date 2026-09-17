@@ -82,7 +82,10 @@ div .line {
   content: "▶";
 }
 .title h2 {
-  padding: 0.5em;
+  padding: 0.35em;
+}
+.title h2 a {
+  padding: 0.2em;
 }
 .top {
   padding: 12px 20px 12px 20px;
