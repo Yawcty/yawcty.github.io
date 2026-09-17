@@ -32,6 +32,10 @@ a img {
 a .folder:hover {
   transform: scale(1.1);
 }
+a:-webkit-any-link hover {
+  color: white;
+  text-decoration: underline;
+}
 .folder {
   width: 250px;
   padding: 15px 15px 15px 15px;
