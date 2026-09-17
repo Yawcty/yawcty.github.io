@@ -69,12 +69,12 @@ a .folder:hover {
   color: white;
   text-align: left;
 }
-.featured1 {
+.featured1::before {
   content: "Placeholder1";
 }
-.featured2 {
+.featured2::before {
   content: "Placeholder2";
 }
-.featured3 {
+.featured3::before {
   content: "Can You Draw Every Flag in Powerpoint? (Part 1)";
 }
