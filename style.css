@@ -1,6 +1,6 @@
 body {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   font-family: Arial;
   margin: 0px;
 }
@@ -17,7 +17,7 @@ header .top a:hover {
   color: #d4d4d4;
 }
 header .top a {
-  color: #e6e6e6;
+  color: white;
   text-decoration: none;
 }
 a {
@@ -59,13 +59,13 @@ a .folder:hover {
 }
 .title {
   padding: 2px 20px 12px 20px;
-  background: #d4d4d4;
+  background: #001840;
   color: black;
   text-align: left;
 }
 .top {
   padding: 12px 20px 12px 20px;
-  background: gray;
+  background: #010024;
   color: white;
   text-align: left;
 }
