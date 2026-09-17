@@ -71,7 +71,7 @@ div not(.filler) {
 .top {
   padding: 12px 20px 12px 20px;
   background: #010024;
-  color: white;
+  color: #d1d1d1;
   text-align: left;
 }
 .featured1::before {
