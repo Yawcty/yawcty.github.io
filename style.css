@@ -79,7 +79,10 @@ div .line {
   text-align: left;
 }
 .title h2::before {
-  content: " ▶ ";
+  content: "▶";
+}
+.title h2 {
+  padding: 0.5em;
 }
 .top {
   padding: 12px 20px 12px 20px;
