@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  color: #d1d1d1;
+  color: #bababa;
   font-family: Arial;
   margin: 0px;
 }
@@ -25,6 +25,7 @@ footer {
 }
 a {
   transition: color 0.2s, background-color 0.2s, transform 0.2s;
+  color: #d1d1d1;
 }
 a img {
   transition: transform 0.2s;
@@ -46,8 +47,9 @@ a:hover {
   flex-direction: row;
   align-items: flex-start;
 }
-div:not(.filler) {
-  border: 1px solid white;
+div .line {
+  height: 0.5px;
+  color: #d1d1d1;
 }
 .centered {
   text-align: -webkit-center;
