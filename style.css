@@ -94,7 +94,7 @@ div .line {
   text-align: left;
 }
 .featured1::before {
-  content: "Placeholder1";
+  content: "Desmos Centipede";
 }
 .featured2::before {
   content: "Placeholder2";
