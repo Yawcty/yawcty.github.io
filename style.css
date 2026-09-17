@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  color: white;
+  color: #d1d1d1;
   font-family: Arial;
   margin: 0px;
 }
@@ -14,10 +14,10 @@ header {
   width: 100%;
 }
 header .top a:hover {
-  color: #d4d4d4;
+  color: white;
 }
 header .top a {
-  color: white;
+  color: #d1d1d1;
   text-decoration: none;
 }
 footer {
@@ -42,6 +42,9 @@ a .folder:hover {
   flex-direction: row;
   align-items: flex-start;
 }
+div not(.filler) {
+  border: 1px solid white;
+}
 .centered {
   text-align: -webkit-center;
 }
@@ -63,7 +66,6 @@ a .folder:hover {
 .title {
   padding: 2px 20px 12px 20px;
   background: #001840;
-  color: black;
   text-align: left;
 }
 .top {
