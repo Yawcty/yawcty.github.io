@@ -20,6 +20,9 @@ header .top a {
   color: #d1d1d1;
   text-decoration: none;
 }
+explanation {
+  max-width: 1100px;
+}
 footer {
   background-color: #110030;
 }
