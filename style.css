@@ -78,7 +78,7 @@ div .line {
   background: #001840;
   text-align: left;
 }
-.title::before {
+.title h2::before {
   content: " ▶ ";
 }
 .top {
