@@ -32,7 +32,7 @@ a img {
 a .folder:hover {
   transform: scale(1.1);
 }
-a:-webkit-any-link hover {
+a:hover {
   color: white;
   text-decoration: underline;
 }
@@ -46,7 +46,7 @@ a:-webkit-any-link hover {
   flex-direction: row;
   align-items: flex-start;
 }
-div not(.filler) {
+div:not(.filler) {
   border: 1px solid white;
 }
 .centered {
