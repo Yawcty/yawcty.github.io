@@ -52,32 +52,33 @@ a {
 }
 .starbox {
   color: #696969;
-  border: #696969;
+  border: 1px solid#696969;
+  border-radius: 10px;
   background-color: #424242;
 }
 #onestars:checked ~ #onestarbox {
   color: #ff4800;
-  border: #ff4800;
+  border: 1px solid#ff4800;
   background-color: #ff6200;
 }
 #twostars:checked ~ #twostarbox {
   color: #ff4800;
-  border: #ff4800;
+  border: 1px solid#ff4800;
   background-color: #ff6200;
 }
 #threestars:checked ~ #threestarbox {
   color: #ff4800;
-  border: #ff4800;
+  border: 1px solid#ff4800;
   background-color: #ff6200;
 }
 #fourstars:checked ~ #fourstarbox {
   color: #ff4800;
-  border: #ff4800;
+  border: 1px solid#ff4800;
   background-color: #ff6200;
 }
 #fivestars:checked ~ #fivestarbox {
   color: #ff4800;
-  border: #ff4800;
+  border: 1px solid #ff4800;
   background-color: #ff6200;
 }
 #handle {
@@ -117,7 +118,8 @@ div .line {
 }
 div .startag {
   color: #ff4800;
-  border: #ff4800;
+  border: 1px solid #ff4800;
+  border-radius: 10px;
   background-color: #ff6200;
 }
 .centered {
