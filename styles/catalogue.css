@@ -86,6 +86,9 @@ body:has(#fivestars:checked) #fivestarbox {
 input {
   display: none;
 }
+label {
+  display: block;
+}
 body:has(#handle:checked) #funkyfiller {
   max-height: 110px;
   transition: max-height 0.4s ease;
