@@ -35,19 +35,19 @@ a {
   color: #d1d1d1;
   text-decoration: none;
 }
-#onestars:checked ~ .onestar {
+body:has(#onestars:checked) .onestar {
   display: block;
 }
-#twostars:checked ~ .twostar {
+body:has(#twostars:checked) .twostar {
   display: block;
 }
-#threestars:checked ~ .threestar {
+body:has(#threestars:checked) .threestar {
   display: block;
 }
-#fourstars:checked ~ .fourstar {
+body:has(#fourstars:checked) .fourstar {
   display: block;
 }
-#fivestars:checked ~ .fivestar {
+body:has(#fivestars:checked) .fivestar {
   display: block;
 }
 .starbox {
@@ -58,27 +58,27 @@ a {
   width: 75px;
   padding: 5px;
 }
-#onestars:checked ~ #onestarbox {
+body:has(#onestars:checked) #onestarbox {
   color: #ff4800;
   border: 1px solid  #ff4800;
   background-color: #6d2a00;
 }
-#twostars:checked ~ #twostarbox {
+body:has(#twostars:checked) #twostarbox {
   color: #ff4800;
   border: 1px solid #ff4800;
   background-color: #6d2a00;
 }
-#threestars:checked ~ #threestarbox {
+body:has(#threestars:checked) #threestarbox {
   color: #ff4800;
   border: 1px solid #ff4800;
   background-color: #6d2a00;
 }
-#fourstars:checked ~ #fourstarbox {
+body:has(#fourstars:checked) #fourstarbox {
   color: #ff4800;
   border: 1px solid #ff4800;
   background-color: #6d2a00;
 }
-#fivestars:checked ~ #fivestarbox {
+body:has(#fivestars:checked) #fivestarbox {
   color: #ff4800;
   border: 1px solid #ff4800;
   background-color: #6d2a00;
@@ -86,7 +86,7 @@ a {
 input {
   display: none;
 }
-#handle:checked ~ #funkyfiller {
+body:has(#handle:checked) #funkyfiller {
   max-height: 110px;
   transition: max-height 0.4s ease;
 }
