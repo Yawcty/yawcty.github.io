@@ -31,19 +31,45 @@ a {
   color: #d1d1d1;
   text-decoration: none;
 }
+#onestars:checked ~ .onestar {
+  display: block;
+}
+#twostars:checked ~ .twostar {
+  display: block;
+}
+#threestars:checked ~ .threestar {
+  display: block;
+}
+#fourstars:checked ~ .fourstar {
+  display: block;
+}
+#fivestars:checked ~ .fivestar {
+  display: block;
+}
+#handle {
+  display: none;
+}
+#handle:checked ~ #funkyfiller {
+  max-height: 100;
+  transition: max-height 0.4s ease;
+}
+#funkyfiller {
+  max-height: 60;
+}
 a img {
   transition: transform 0.2s;
 }
-a .folder:hover {
+a .item:hover {
   transform: scale(1.1);
 }
 a:hover {
   color: white;
   text-decoration: underline;
 }
-.folder {
+.item {
   width: 250px;
   padding: 15px 15px 15px 15px;
+  display: none;
 }
 .row {
   display: flex;
