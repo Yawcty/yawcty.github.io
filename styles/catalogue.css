@@ -81,7 +81,7 @@ a {
   border: 1px solid #ff4800;
   background-color: #ff6200;
 }
-#handle {
+input {
   display: none;
 }
 #handle:checked ~ #funkyfiller {
