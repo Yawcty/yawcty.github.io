@@ -52,7 +52,7 @@ a {
 }
 .starbox {
   color: #696969;
-  border: 1px solid#696969;
+  border: 1px solid #696969;
   border-radius: 10px;
   background-color: #424242;
   width: 75px
@@ -60,22 +60,22 @@ a {
 }
 #onestars:checked ~ #onestarbox {
   color: #ff4800;
-  border: 1px solid#ff4800;
+  border: 1px solid  #ff4800;
   background-color: #6d2a00;
 }
 #twostars:checked ~ #twostarbox {
   color: #ff4800;
-  border: 1px solid#ff4800;
+  border: 1px solid #ff4800;
   background-color: #6d2a00;
 }
 #threestars:checked ~ #threestarbox {
   color: #ff4800;
-  border: 1px solid#ff4800;
+  border: 1px solid #ff4800;
   background-color: #6d2a00;
 }
 #fourstars:checked ~ #fourstarbox {
   color: #ff4800;
-  border: 1px solid#ff4800;
+  border: 1px solid #ff4800;
   background-color: #6d2a00;
 }
 #fivestars:checked ~ #fivestarbox {
