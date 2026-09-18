@@ -55,7 +55,7 @@ a {
   border: 1px solid #696969;
   border-radius: 10px;
   background-color: #424242;
-  width: 75px
+  width: 75px;
   padding: 5px;
 }
 #onestars:checked ~ #onestarbox {
