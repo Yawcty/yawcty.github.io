@@ -46,7 +46,19 @@ a {
 .carrier .wip {
   display: none !important;
 }
-body:has(#wips:checked) .wip {
+body:has(#wips:checked):has(#onestars:checked) .onestar.wip {
+  display: block !important;
+}
+body:has(#wips:checked):has(#twostars:checked) .twostar.wip {
+  display: block !important;
+}
+body:has(#wips:checked):has(#threestars:checked) .threestar.wip {
+  display: block !important;
+}
+body:has(#wips:checked):has(#fourstars:checked) .fourstar.wip {
+  display: block !important;
+}
+body:has(#wips:checked):has(fivestars:checked) .fivestar.wip {
   display: block !important;
 }
 body:has(#onestars:checked) .onestar {
