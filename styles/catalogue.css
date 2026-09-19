@@ -61,6 +61,7 @@ body:has(#fivestars:checked) .fivestar {
   width: 75px;
   margin-block-end: 0.1em;
   height: 1.1em;
+  transition: border 0.2s;
 }
 .starbox:hover {
   border: 1px solid white;
@@ -200,8 +201,8 @@ div .startag {
   content: "Can You Draw Every Flag in Powerpoint? (Part 1)";
 }
 body:has(#handle:checked) #fakehandle::before {
-  content: "^^^^^^^"
+  content: "^^^^^"
 }
 body:has(#handle:not(:checked)) #fakehandle::before {
-  content: "˅˅˅˅˅˅˅"
+  content: "˅˅˅˅˅"
 }
