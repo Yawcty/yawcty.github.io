@@ -171,19 +171,19 @@ div .startag {
 .centered {
   text-align: -webkit-center;
 }
-.row.centered {
+.centered .row, .row .centered, .row.centered {
   justify-content: center;
 }
 .lefted {
   text-align: -webkit-left;
 }
-.lefted .row{
+.lefted .row, .row .lefted, .row.lefted {
   justify-content: left;
 }
 .righted {
   text-align: -webkit-right;
 }
-.righted .row{
+.righted .row, .row .righted, .row.righted {
   justify-content: right;
 }
 .title {
