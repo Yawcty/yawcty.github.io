@@ -203,12 +203,14 @@ div .wiptag {
   margin-left: 0.3em;
 }
 #wipbox {
-  border: 1px solid #8400ff;
-  color: #8400ff;
-  background-color: #3b0073;
   width: 40px;
   font-size: 0.9em;
   height: 17.59px;
+}
+body:has(#wips:checked) #wipbox{
+  border: 1px solid #8400ff;
+  color: #8400ff;
+  background-color: #3b0073;
 }
 .centered {
   text-align: -webkit-center;
