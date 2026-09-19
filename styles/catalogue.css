@@ -124,7 +124,7 @@ body:has(#handle:checked) #funkyfiller {
   transition: max-height 0.4s ease;
 }
 #fakehandle:hover {
-  color: white;
+  color: white !important;
 }
 a img {
   transition: transform 0.2s;
