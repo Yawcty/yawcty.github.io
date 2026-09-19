@@ -65,7 +65,7 @@ body:has(#fivestars:checked) .fivestar {
   transition: border 0.2s;
 }
 .starbox:hover {
-  border: 1px solid white;
+  border: 1px solid white !important;
 }
 body:has(#onestars:checked) #onestarbox {
   color: #ff4800;
@@ -125,7 +125,10 @@ body:has(#handle:checked) #funkyfiller {
   transition: max-height 0.4s ease;
 }
 #fakehandle:hover {
-  color: white !important;
+  color: white;
+}
+#fakehandle {
+  transition: color 0.2s;
 }
 a img {
   transition: transform 0.2s;
