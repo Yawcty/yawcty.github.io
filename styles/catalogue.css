@@ -29,6 +29,7 @@ p .explanation {
 }
 body:has(#handle:checked) .explanation {
   margin-left: 100px;
+  margin-right: 100px;
 }
 footer {
   background-color: #110030;
@@ -212,8 +213,8 @@ div .startag {
   content: "Can You Draw Every Flag in Powerpoint? (Part 1)";
 }
 body:has(#handle:checked) #fakehandle::before {
-  content: "▲▲▲▲▲▲▲"
+  content: "▲▲▲▲"
 }
 body:has(#handle:not(:checked)) #fakehandle::before {
-  content: "▼▼▼▼▼▼▼"
+  content: "▼▼▼▼"
 }
