@@ -113,7 +113,7 @@ label {
   display: block;
   cursor: pointer;
 }
-.starbox span:not(.wipbox span) {
+.starbox span:not(#wipbox span) {
   position: relative;
   top: -3px;
   user-select: none;
@@ -190,7 +190,7 @@ div .wiptag {
   font-size: 0.9em;
   margin-left: 0.3em;
 }
-.wipbox {
+#wipbox {
   border: 1px solid #8400ff;
   color: #8400ff;
   background-color: #3b0073;
