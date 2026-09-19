@@ -7,7 +7,7 @@ body {
 a {
   mouse: default;
   color: #bababa;
-  text-decorations: none;
+  text-decoration: none;
 }
 .centered {
   text-align: -webkit-center;
