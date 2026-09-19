@@ -130,6 +130,9 @@ label {
   top: -3px;
   user-select: none;
 }
+#wipbox span {
+  user-select: none;
+}
 #menucontainer {
   position: fixed;
 }
