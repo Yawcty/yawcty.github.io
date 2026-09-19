@@ -102,6 +102,7 @@ label {
 .starbox span {
   position: relative;
   top: -3px;
+  user-select: none;
 }
 .tagmenu {
     background-color: #292929;
