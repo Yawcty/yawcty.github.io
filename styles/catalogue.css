@@ -135,7 +135,9 @@ body:has(#handle:checked) #funkyfiller {
   color: white;
 }
 #fakehandle {
-  transition: color 0.2s;
+  display: flex;
+  align-items: flex-end;
+  height: 1.15em;
 }
 a img {
   transition: transform 0.2s;
