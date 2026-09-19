@@ -111,7 +111,7 @@ label {
 #menucontainer {
   position: fixed;
 }
-#tagmenu {
+.tagmenu {
     background-color: #292929;
     border: 1px solid #696969;
     border-radius: 12px;
