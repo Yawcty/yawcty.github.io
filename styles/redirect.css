@@ -6,6 +6,8 @@ body {
 }
 a {
   mouse: default;
+  color: #bababa;
+  text-decorations: none;
 }
 .centered {
   text-align: -webkit-center;
