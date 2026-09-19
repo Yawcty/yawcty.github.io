@@ -207,8 +207,8 @@ div .startag {
   text-align: left;
 }
 body:has(#handle:checked) #fakehandle::before {
-  content: "▲▲▲▲"
+  content: "▲▲★▲▲"
 }
 body:has(#handle:not(:checked)) #fakehandle::before {
-  content: "▼▼▼▼"
+  content: "▼▼★▼▼"
 }
