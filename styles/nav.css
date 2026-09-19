@@ -93,12 +93,3 @@ div .line {
   color: #d1d1d1;
   text-align: left;
 }
-.featured1::before {
-  content: "Desmos Centipede";
-}
-.featured2::before {
-  content: "Placeholder2";
-}
-.featured3::before {
-  content: "Can You Draw Every Flag in Powerpoint? (Part 1)";
-}
