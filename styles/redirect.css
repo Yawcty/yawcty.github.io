@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  color: #bababa;
+  font-family: Arial;
+  margin: 0px;
+}
+a {
+  mouse: default;
+}
+.centered {
+  text-align: -webkit-center;
+}
+.row.centered {
+  justify-content: center;
+}
+.lefted {
+  text-align: -webkit-left;
+}
+.lefted .row{
+  justify-content: left;
+}
+.righted {
+  text-align: -webkit-right;
+}
+.righted .row{
+  justify-content: right;
+}
