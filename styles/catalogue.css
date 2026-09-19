@@ -37,6 +37,7 @@ a {
 }
 .carrier {
   display: none;
+  width: 300px
 }
 body:has(#onestars:checked) .onestar {
   display: block;
