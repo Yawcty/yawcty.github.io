@@ -29,6 +29,10 @@ footer {
 .carrier {
   width: 300px;
 }
+.carrier p {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
 a {
   transition: color 0.2s, background-color 0.2s, transform 0.2s;
   color: #d1d1d1;
