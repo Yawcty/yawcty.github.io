@@ -46,6 +46,10 @@ a {
 .carrier.wip {
   display: none !important;
 }
+.carrier p {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
 body:has(#wips:checked):has(#onestars:checked) .onestar.wip {
   display: block !important;
 }
