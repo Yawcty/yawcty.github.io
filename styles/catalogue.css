@@ -41,7 +41,7 @@ a {
 }
 .carrier {
   display: none;
-  width: 300px
+  width: 300px;
 }
 .carrier.wip {
   display: none !important;
