@@ -62,7 +62,7 @@ body:has(#wips:checked):has(#threestars:checked) .threestar.wip {
 body:has(#wips:checked):has(#fourstars:checked) .fourstar.wip {
   display: block !important;
 }
-body:has(#wips:checked):has(fivestars:checked) .fivestar.wip {
+body:has(#wips:checked):has(#fivestars:checked) .fivestar.wip {
   display: block !important;
 }
 body:has(#onestars:checked) .onestar {
