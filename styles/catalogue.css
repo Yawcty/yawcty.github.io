@@ -139,6 +139,7 @@ label {
 }
 #menucontainer {
   position: fixed;
+  z-index: 99;
 }
 .tagmenu {
     background-color: #292929;
