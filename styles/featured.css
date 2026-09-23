@@ -7,3 +7,12 @@
 .featured3::before {
   content: "Can You Draw Every Flag in Powerpoint? (Part 1)";
 }
+#featured1desc::before {
+  content: "i like centipedes so i made one in desmos";
+}
+#featured2desc::before {
+  content: "this is an old thingy i made that im proud i made in desmos";
+}
+#featured3desc::before {
+  content: "i like this video i watched, i got involved partially in it";
+}
