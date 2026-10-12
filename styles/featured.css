@@ -1,18 +1,18 @@
 .featured1::before {
-  content: "Desmos Centipede";
+  content: "3D Desmos Centipede";
 }
 .featured2::before {
-  content: "Desmos Art";
+  content: "Gravity Thingy";
 }
 .featured3::before {
-  content: "Can You Draw Every Flag in Powerpoint? (Part 1)";
+  content: "Can You Draw Every Flag in Powerpoint? (Part 2)";
 }
 #featured1desc::before {
-  content: "i like centipedes so i made one in desmos";
+  content: "centipede in desmos but in 3d!!!";
 }
 #featured2desc::before {
-  content: "this is an old thingy i made that im proud i made in desmos";
+  content: "gravity stuff is cool";
 }
 #featured3desc::before {
-  content: "i like this video i watched, i got involved partially in it";
+  content: "the part two of that video oo lala";
 }
